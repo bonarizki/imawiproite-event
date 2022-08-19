@@ -1,0 +1,71 @@
+body {
+    margin-top: 60px;
+}
+
+.slotwrapper {
+    overflow: hidden !important;
+    display: inline-block !important;
+    border: 1px solid #000 !important;
+    height: 200px !important;
+}
+.slotwrapper ul {
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    position: relative !important;
+    float: left !important;
+}
+.slotwrapper ul {
+    width: 200px !important;
+    height:200px !important;
+    font-size: 200px !important;
+    line-height: 200px !important;
+    text-align: center !important;
+}
+.slotwrapper ul li img {
+    vertical-align: top !important;
+}
+@media screen and (max-width: 1200px) {
+    .slotwrapper {
+        width: 100% !important;
+    }
+    .slotwrapper ul {
+        width: 33% !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .slotwrapper {
+        height: 100px !important;
+    }
+    .slotwrapper ul {
+        height:100px !important;
+        font-size: 100px !important;
+        line-height: 100px !important;
+    }
+}
+
+/* Example 10 override slotwrapper */
+#example10 {
+    height: 150px !important;
+}
+#example10 ul {
+    width: 150px !important;
+    height:150px !important;
+    font-size: 150px !important;
+    line-height: 150px !important;
+}
+@media screen and (max-width: 1200px) {
+    #example10 ul {
+        width: 18% !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    #example10 {
+        height: 100px !important;
+    }
+    #example10 ul {
+        height:100px !important;
+        font-size: 100px !important;
+        line-height: 100px !important;
+    }
+}
